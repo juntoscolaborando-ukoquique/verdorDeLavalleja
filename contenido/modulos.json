@@ -5,5 +5,6 @@
   { "id": "bosque", "titulo": "Bosque comestible", "resumen": "Frutales, frutos secos y especies nativas integradas, con cosecha a mediano y largo plazo." },
   { "id": "fermentos", "titulo": "Fermentos y alimentos artesanales", "resumen": "Conservas, deshidratados, hierbas, kéfir y otros fermentos. Lo coordina Gerardo." },
   { "id": "retiros", "titulo": "Coworking rural y retiros", "resumen": "Conectividad básica para trabajo remoto y grupos que busquen un lugar tranquilo." },
-  { "id": "suelos", "titulo": "Suelos y pastoreo racional", "resumen": "Recuperar el tapiz vegetal nativo con animales a baja escala." }
+  { "id": "suelos", "titulo": "Suelos y pastoreo racional", "resumen": "Recuperar el tapiz vegetal nativo con animales a baja escala." },
+  { "id": "propios", "titulo": "Tus ideas", "resumen": "Este espacio es tuyo. Quien se sume puede proponer nuevos módulos o proyectos.", "icon": "💡" }
 ]

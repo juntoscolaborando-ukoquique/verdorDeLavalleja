@@ -21,8 +21,13 @@ export function renderTodo({ proyecto: p, modulos, fases, faq }) {
 
   const n = modulos.length;
   $('modulos-titulo').textContent = `${NUMEROS[n] ?? n} ${n === 1 ? 'idea' : 'ideas'} de proyecto para el predio`;
-  $('modulos-lista').replaceChildren(...modulos.map((m) =>
-    h('li', {}, h('h3', {}, m.titulo), h('p', {}, m.resumen))));
+  $('modulos-lista').replaceChildren(...modulos.map((m, i) =>
+    h('li', { class: m.id === 'propios' ? 'modulo-propios' : '', 'data-index': i }, 
+      m.icon ? h('div', { class: 'modulo-icon' }, m.icon) : null,
+      h('h3', {}, m.titulo), 
+      h('p', {}, m.resumen)
+    )
+  ));
 
   $('fases-lista').replaceChildren(...fases.map((f) =>
     h('li', {}, h('h3', {}, f.titulo), h('span', { class: 'sem' }, `Semanas ${f.semanas}`), h('p', {}, f.detalle))));
