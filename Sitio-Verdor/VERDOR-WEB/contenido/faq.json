@@ -1,0 +1,8 @@
+[
+  { "p": "¿Qué compro exactamente?", "r": "Una parcela privada y una parte en copropiedad del área colectiva. El tamaño de cada parcela y la proporción del área colectiva se están definiendo.", "estado": "por-definir" },
+  { "p": "¿Cuánto cuesta?", "r": "El predio completo tiene un valor de referencia de USD 120.000. El precio de cada parcela se fijará cuando esté definida la división; hoy no hay una oferta cerrada.", "estado": "por-definir" },
+  { "p": "¿Quién organiza y pone plata?", "r": "Quienes convocamos no aportamos capital de compra. El dinero lo ponen quienes compran y va a una escribanía, no a cuentas personales.", "estado": "definido" },
+  { "p": "¿Hay rentabilidad asegurada?", "r": "No. Es una compra de tierra para vivir y producir en común, sin promesa de retorno.", "estado": "definido" },
+  { "p": "¿Y si no tengo capital?", "r": "Podés postularte para llevar un módulo productivo. Cómo se accede sin comprar parcela se está definiendo.", "estado": "por-definir" },
+  { "p": "¿Qué pasa si el grupo no se completa?", "r": "Se definirá con la escribanía cómo se resguardan y devuelven las señas. Hoy no se pide ningún dinero.", "estado": "por-definir" }
+]

@@ -1,0 +1,22 @@
+[
+  { "id": "comprador", "etiqueta": "Quiero comprar una parcela",
+    "campos": [
+      { "name": "capital", "label": "Monto que podrías aportar (USD)", "type": "select", "options": ["Menos de 10.000", "10.000 a 20.000", "20.000 a 40.000", "Más de 40.000", "Prefiero hablarlo"] },
+      { "name": "uso", "label": "¿Para qué la querés?", "type": "select", "options": ["Vivir allí", "Producir", "Uso recreativo", "Una mezcla"] }
+    ] },
+  { "id": "operativo", "etiqueta": "Quiero llevar adelante un módulo",
+    "campos": [
+      { "name": "modulo", "label": "Módulo de interés", "type": "select", "fromModulos": true },
+      { "name": "experiencia", "label": "Tu experiencia", "type": "textarea" },
+      { "name": "disponibilidad", "label": "Disponibilidad para estar en el predio", "type": "select", "options": ["Tiempo completo", "Algunos días por semana", "Fines de semana", "A definir"] }
+    ] },
+  { "id": "disenador", "etiqueta": "Soy diseñador/a de permacultura o agroecología",
+    "campos": [
+      { "name": "formacion", "label": "Formación y antecedentes", "type": "textarea" },
+      { "name": "portafolio", "label": "Enlace a portafolio (opcional)", "type": "text" }
+    ] },
+  { "id": "aliado", "etiqueta": "Quiero seguir el proyecto",
+    "campos": [
+      { "name": "interes", "label": "¿Qué te interesa?", "type": "textarea" }
+    ] }
+]

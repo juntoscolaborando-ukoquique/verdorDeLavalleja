@@ -1,0 +1,9 @@
+[
+  { "id": "huerta", "titulo": "Huerta regenerativa", "resumen": "Hortalizas y frutales sin labranza para consumo del grupo y venta local." },
+  { "id": "ecoturismo", "titulo": "Hospedaje de bajo impacto", "resumen": "Alojamientos en bioconstrucción y senderos interpretativos por la sierra." },
+  { "id": "talleres", "titulo": "Talleres y capacitación", "resumen": "Cursos de permacultura, manejo del agua, bioconstrucción y plantas." },
+  { "id": "bosque", "titulo": "Bosque comestible", "resumen": "Frutales, frutos secos y especies nativas integradas, con cosecha a mediano y largo plazo." },
+  { "id": "fermentos", "titulo": "Fermentos y alimentos artesanales", "resumen": "Conservas, deshidratados, hierbas, kéfir y otros fermentos. Lo coordina Gerardo." },
+  { "id": "retiros", "titulo": "Coworking rural y retiros", "resumen": "Conectividad básica para trabajo remoto y grupos que busquen un lugar tranquilo." },
+  { "id": "suelos", "titulo": "Suelos y pastoreo racional", "resumen": "Recuperar el tapiz vegetal nativo con animales a baja escala." }
+]

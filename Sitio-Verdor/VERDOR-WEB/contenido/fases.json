@@ -1,0 +1,7 @@
+[
+  { "titulo": "Preparación", "semanas": "1 a 3", "detalle": "Sitio, bases del proyecto y reglamento inicial. Lanzamiento de la convocatoria." },
+  { "titulo": "Captación y asambleas", "semanas": "4 a 7", "detalle": "Recibimos formularios, entrevistamos en Montevideo y en línea, y presentamos el plan de división del predio." },
+  { "titulo": "Grupo fundador y seña", "semanas": "8 a 10", "detalle": "Carta de intención, elección de la figura legal y seña depositada en la escribanía." },
+  { "titulo": "Cierre legal y escrituración", "semanas": "11 a 14", "detalle": "Capital en custodia de la escribanía, escrituración y toma de posesión." },
+  { "titulo": "Activación", "semanas": "desde la 15", "detalle": "Primeros módulos en marcha y reportes periódicos." }
+]

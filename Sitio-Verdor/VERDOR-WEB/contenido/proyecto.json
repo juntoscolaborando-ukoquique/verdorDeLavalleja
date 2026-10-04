@@ -1,0 +1,72 @@
+{
+  "nombre": "Verdor",
+  "titulo": "Once hectáreas en las sierras de Lavalleja, para vivir y trabajar en común",
+  "bajada": "Buscamos el grupo que compre un predio cerca de Minas y lo desarrolle con permacultura y agroecología: parcelas propias y un área colectiva que es de todos.",
+  "predio": {
+    "zona": "Cerca de Minas, Lavalleja",
+    "hectareas": 11,
+    "valorUSD": 120000,
+    "nota": "Valor de referencia del predio completo. No incluye gastos de escrituración ni impuestos."
+  },
+  "estructura": {
+    "parcelas": 7,
+    "explicacion": "El predio se divide en parcelas privadas y un área colectiva. Quien compra una parcela accede a su propiedad y participa en la copropiedad del área colectiva según las normas que establezca el reglamento. El número de parcelas (hoy 7) puede cambiar antes de cerrar la propuesta.",
+    "porQueColectiva": "Si cada parcela tuviera un solo dueño y nada más, no habría dónde encontrarse. Un predio regenerativo necesita zonas que den recursos y bienestar a todos, como las plazas y los parques en una ciudad.",
+    "areaColectiva": {
+      "estado": "por-definir",
+      "contenido": "Qué incluye el área colectiva (agua, caminos, monte, espacios de reunión) se está definiendo y se publicará acá antes de pedir ningún compromiso."
+    }
+  },
+  "principios": [
+    {
+      "titulo": "La tierra es de quienes la compran",
+      "texto": "Todo dinero de seña o compra se deposita en la cuenta de una escribanía, nunca en cuentas personales."
+    },
+    {
+      "titulo": "Quienes convocamos no ponemos capital de compra",
+      "texto": "Aportamos organización, sitio web, administración a distancia y trabajo de coordinación. Lo decimos de entrada."
+    },
+    {
+      "titulo": "Si hay compensación por gestionar, la decide el grupo",
+      "texto": "Hoy no hay ninguna fijada. Cualquier compensación futura será pública y acordada por el grupo."
+    },
+    {
+      "titulo": "Cuentas abiertas",
+      "texto": "Reportes periódicos de gastos y avance para todos los participantes."
+    },
+    {
+      "titulo": "No prometemos rentabilidad",
+      "texto": "Se compra tierra y un proyecto de vida y trabajo, no una inversión con retorno asegurado."
+    }
+  ],
+  "equipo": [
+    {
+      "rol": "Facilitación en Montevideo",
+      "nombre": "Gerardo",
+      "texto": "Recibe a las personas interesadas y organiza encuentros. Cocinero de buen gusto y buen elector de ingredientes; trajo el kéfir al grupo y lidera el módulo de fermentos y alimentos.",
+      "estado": "definido"
+    },
+    {
+      "rol": "Administración a distancia",
+      "nombre": "",
+      "texto": "Diseña el sitio y los procesos, lleva el registro de interesados y la transparencia de cuentas. Puede visitar el predio cuando haga falta.",
+      "estado": "definido"
+    },
+    {
+      "rol": "Diseño de permacultura",
+      "nombre": "",
+      "texto": "Buscamos a esta persona. Ver la convocatoria más abajo.",
+      "estado": "por-definir"
+    }
+  ],
+  "contacto": {
+    "whatsapp": "096140673",
+    "email": "verdorLavalleja@hotmail.com",
+    "formEndpoint": ""
+  },
+  "disenador": {
+    "titulo": "Buscamos diseñador/a de permacultura",
+    "necesidad": "Necesitamos a quien zonifique el predio, lea el paisaje, diseñe la cosecha de agua y distribuya los módulos para que el conjunto funcione y sea hermoso.",
+    "ofrecemos": "Qué ofrecemos: integrarte al grupo fundador sin aportar capital de compra, prioridad para liderar un módulo (talleres, vivero, capacitación) y un predio real donde aplicar y mostrar tu diseño."
+  }
+}

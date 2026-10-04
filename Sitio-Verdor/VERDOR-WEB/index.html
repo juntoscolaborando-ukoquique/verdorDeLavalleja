@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verdor — Predio ecológico en Lavalleja</title>
+  <meta name="description" content="Grupo comprador de un predio de 11 ha cerca de Minas, Lavalleja: parcelas propias y área colectiva, con permacultura y agroecología.">
+  <meta property="og:title" content="Verdor — Predio ecológico en Lavalleja">
+  <meta property="og:description" content="Once hectáreas en las sierras de Lavalleja, para vivir y trabajar en común.">
+  <!-- og:image y og:url: completar cuando haya foto propia y dominio -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#inicio">
+      <img src="images/verdorLOGO.png" alt="" class="logo-header">
+      Verdor
+    </a>
+    <nav aria-label="Secciones">
+      <a href="#predio">El predio</a><a href="#modulos">Módulos</a><a href="#agenda">Agenda</a>
+      <a href="#gobernanza">Gobernanza</a><a href="#diseniador">Diseño</a><a href="#faq">Preguntas</a>
+      <a class="cta-link" href="#sumate">Sumate</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="hero-text">
+        <h1 id="h-titulo"></h1>
+        <p class="lead" id="h-bajada"></p>
+        <p class="facts" id="h-datos"></p>
+        <a class="btn" href="#sumate">Quiero participar</a>
+      </div>
+      <figure class="plano">
+        <div id="plano"></div>
+        <figcaption>Esquema ilustrativo, no a escala. El número de parcelas es provisorio.</figcaption>
+      </figure>
+    </section>
+
+    <section id="predio"><h2>Qué se compra</h2><div id="predio-body"></div></section>
+    <section id="modulos"><h2 id="modulos-titulo"></h2>
+      <p class="intro">Son puntos de partida, no obligaciones. Pueden ir en una parcela o en el área colectiva, y quien se sume puede proponer otros.</p>
+      <ul class="modulos" id="modulos-lista"></ul></section>
+    <section id="agenda"><h2>Agenda</h2>
+      <p class="intro">Los plazos son tentativos y se cuentan en semanas desde el lanzamiento.</p>
+      <ol class="fases" id="fases-lista"></ol></section>
+    <section id="gobernanza"><h2>Gobernanza y transparencia</h2><div id="gob-body"></div></section>
+    <section id="equipo"><h2>Quiénes organizamos</h2><div id="equipo-lista" class="equipo"></div></section>
+    <section id="diseniador"><h2 id="dis-titulo"></h2>
+      <p id="dis-necesidad"></p>
+      <p id="dis-ofrecemos"></p>
+      <p><a class="btn" href="#sumate" data-perfil="disenador">Postularme</a></p></section>
+    <section id="faq"><h2>Preguntas frecuentes</h2><div id="faq-lista"></div></section>
+    <section id="sumate"><h2>Sumate</h2>
+      <p class="intro">Contanos quién sos y qué te interesa. No se pide dinero en esta etapa.</p>
+      <form id="form" novalidate></form>
+      <p id="form-estado" role="status" aria-live="polite"></p>
+      <p id="contacto-directo" class="contacto-directo"></p></section>
+  </main>
+
+  <footer><img src="images/verdorLOGO.png" alt="" class="logo-footer"><p id="pie"></p></footer>
+  <script type="module" src="js/main.js"></script>
+  <script nomodule>document.body.innerHTML='<p style="font:1rem sans-serif;padding:2rem;max-width:40rem;margin:auto">Este sitio requiere un navegador moderno (Chrome, Firefox, Safari o Edge actualizados). Por favor actualizá tu navegador para verlo correctamente.</p>';</script>
+</body>
+</html>
